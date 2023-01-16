@@ -1,0 +1,32 @@
+{
+  "name": "bugtracker",
+  "version": "1.0.0",
+  "description": "JIRAesque website that uses a database to store bugs and authentication to see who has access to what bugs.",
+  "source": "./src/index.html",
+  "scripts": {
+    "dev": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JalenMurray/BugTracker.git"
+  },
+  "author": "Jalen Murray",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JalenMurray/BugTracker/issues"
+  },
+  "homepage": "https://github.com/JalenMurray/BugTracker#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "http": "^0.0.1-security",
+    "mongodb": "^4.12.1",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.2",
+    "parcel": "^2.8.2"
+  }
+}
